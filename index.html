@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta name="description" content="Portfolio of full-stack web developer Christopher Thornton">
+  <meta name="keywords" content="Chris, Christopher, Thornton, web, developer, portfolio ">
+  <meta name="google" content="notranslate" />
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <title>Chris Thornton Portfolio</title>  
+
+<link href="./main.d8e0d294.css" rel="stylesheet"></head>
+<link rel="shortcut icon" type="image/x-icon" href="./images/ct.png"/>
+
+<body class="">
+
+<main class="content-wrapper">
+  <header class="white-text-container section-container">
+    <div class="text-center">
+      <h1><span style="color: black">C</span>hristopher <span style="color: black">T</span>hornton</h1>
+      <p>Full Stack Web Developer</p>
+      <p>
+        <a href="https://github.com/chris-thornton" title="">
+          <img src="./images/github-logo.png" alt="">
+        </a>
+        <img src="./images/location.png" alt="" style="padding-left:1%">
+        Chico, CA
+      </p>
+    </div>
+  </header>
+
+
+ 
+ <div class="container">
+   <div class="row">
+     <div class="col-xs-12">
+
+        <div class="card">
+          <div class="card-block">
+            <h2>About</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <p><img src="./images/img-01.jpg" class="img-responsive" 
+                  alt="" style="border-radius: 50%"></p>
+              </div>
+              <div class="col-md-8">
+
+              <p>Web developer focused on growth as both a problem solver and a human being. </p>
+              <p> Users will benefit from my dedication to simple and effective solutions.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-block">
+            <h2>Skills</h2>
+            <div class="row" style="display: flex; justify-content: space-around;">
+              <div class="col-md-3">
+                <img src="./images/javascript.png" class="skill img-responsive">
+              </div>
+              <div class="col-md-3">
+                <img src="./images/react.png" class="skill img-responsive"></img>
+              </div>
+              <div class="col-md-3">
+                <img src="./images/nodejs.png" class="skill img-responsive"></img>
+              </div>
+              <div class="col-md-3">
+                <img src="./images/database.png" class="skill img-responsive"></img>
+              </div>
+              <div class="col-md-3">
+                <img src="./images/css-3.png" class="skill img-responsive"></img>
+              </div>
+              <div class="col-md-3">
+                <img src="./images/html5.png" class="skill img-responsive"></img>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-block">
+            <h2>Projects</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <a href="https://face-recognition-ct.herokuapp.com/">
+                <img src="./images/img-02.png" class="img-responsive
+                project" alt="">
+              </a>
+                <a href="https://face-recognition-ct.herokuapp.com/">
+                <h3 class="h5">Smart Brain -<br>Facial Recognition App</h3>
+              </a>
+                <p>
+                    Created with React, Node.js, PostgreSQL, and Clarifai API.
+                    <br>
+                    Draws a box around every detected face in an image.<br>
+                    Account creation and log-in with password hashing.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <a href="https://github.com/chris-thornton/Robofriends">
+                <img src="./images/img-03.png" class="img-responsive
+                project" alt="">
+              </a>
+                <a href="https://github.com/chris-thornton/Robofriends">
+                <h3 class="h5">Robofriends</h3>
+              </a>
+                <p>React app displaying robot characters (generated from robohash.org) that users can filter by name.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-block">
+            <h2>Contact</h2>
+            <iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
+            <form action="https://calm-limpet.prod.with-datafire.io/contact" method="post" class="reveal-content" id="contactForm" target="hiddenFrame">
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Email" name="emailAddress">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+              </div>
+              <div class="form-group">
+                <textarea name="message" id="message" class="form-control" rows="5" placeholder="Enter your message"></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" id="submit" class="btn btn-primary" 
+                onclick="resetForm()">Send message</button>
+              </div>
+              <div class="alert alert-success" id="msgFail" role="alert" style="display: none">Message not sent, please enter a message.</div>
+              <div class="alert alert-success" id="msgSuccess" role="alert" style="display: none">Message successfully sent!</div>  
+            </form>
+          </div>
+        </div>
+       
+     </div>
+   </div>
+ </div>
+
+</main>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     scrollRevelation('.card');
+  });
+</script>
+
+<script type="text/javascript" src="./main.bc58148c.js"></script></body>
+
+</html>
