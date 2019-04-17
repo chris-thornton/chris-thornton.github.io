@@ -1,1 +1,1 @@
-# chris-thornton.github.io
+Portfolio of Christopher Thornton
