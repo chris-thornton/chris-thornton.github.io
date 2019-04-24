@@ -28,9 +28,9 @@ label {
 	padding-top: 5px;
 	padding-bottom: 5px
 }
-@media screen and (max-width: 507px) {
+@media screen and (max-width: 482px) {
 	.col-md-3 {
-		padding-right: 9vw;
+		padding-right: 5.5vw;
 	}
 }
 .projectWrapper {
